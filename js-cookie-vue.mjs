@@ -1,9 +1,10 @@
 // inspired by cmp-cc/vue-cookies
 //
 
+'use strict'
 import Cookies from 'js-cookie'
 
-export default JsCookiesVue = {
+export default {
   install: function (Vue, options) {
     if (options) {
       Cookies.withAttributes(options)

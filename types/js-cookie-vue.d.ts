@@ -5,7 +5,7 @@ import type { CookiesStatic, CookieAttributes } from 'js-cookie'
 
 export declare function install(Vue: typeof _Vue, config: CookieAttributes): void;
 
-export interface VueCookies extends CookiesStatic {
+export interface JsCookieVue extends CookiesStatic {
   /**
    * Set global config
    */
@@ -14,7 +14,7 @@ export interface VueCookies extends CookiesStatic {
 }
 
 declare const _default : {
-  VueCookies: VueCookies;
+  JsCookieVue: JsCookieVue;
   install: typeof install;
 };
 
