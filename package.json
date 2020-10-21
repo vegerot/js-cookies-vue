@@ -1,8 +1,9 @@
 {
   "name": "js-cookie-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue wrapper for js-cookie",
   "main": "js-cookie-vue.mjs",
+  "types": "./types/js-cookie-vue.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
