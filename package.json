@@ -17,5 +17,6 @@
     "session"
   ],
   "author": "Max Coplan",
+  "repository": "https://github.com/vegerot/js-cookies-vue.git",
   "license": "GPLv2"
 }
