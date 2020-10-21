@@ -1,9 +1,10 @@
 // inspired by vue-cookies
-import _Vue from 'vue';
+import originalVue from 'vue';
+import './vue'
 
 import type { CookiesStatic, CookieAttributes } from 'js-cookie'
 
-export declare function install(Vue: typeof _Vue, config: CookieAttributes): void;
+export declare function install(Vue: typeof originalVue, config: CookieAttributes): void;
 
 export interface JsCookieVue extends CookiesStatic {
   /**
