@@ -1,6 +1,6 @@
 {
   "name": "js-cookie-vue",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Vue wrapper for js-cookie",
   "main": "js-cookie-vue.mjs",
   "types": "./types/js-cookie-vue.d.ts",

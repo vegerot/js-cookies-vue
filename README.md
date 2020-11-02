@@ -39,6 +39,7 @@ import JSCookieVue from 'js-cookie-vue';
 
 Vue.use(JsCookieVue, {
   sameSite: 'lax',
+  // Use Webpack to inline values like this at compile-time
   secure: !process.env.NODE_ENV || process.env.NODE_ENV === 'production',
 })
 ```
