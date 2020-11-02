@@ -4,14 +4,21 @@
 'use strict'
 import Cookies from 'js-cookie'
 
-export default {
+function setOptions(/** @type {Cookies.CookieAttributes} */options) {
+  if (Cookies.withAttributes) Cookies.withAttributes(options)
+  else Cookies.defaults = options
+  return Cookies.defaults;
+}
+
+const JSCookieVue = {
   install: function (Vue, options) {
     if (options) {
-      Cookies.withAttributes(options)
+      setOptions(options)
     }
     Vue.$cookies = this;
     Vue.prototype.$cookies = this;
   },
-  config: Cookies.withAttributes,
+  config: setOptions,
   ...Cookies
 }
+export default JSCookieVue

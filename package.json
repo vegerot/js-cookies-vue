@@ -1,6 +1,6 @@
 {
-  "name": "@vegerot/js-cookie-vue",
-  "version": "1.0.5",
+  "name": "js-cookie-vue",
+  "version": "1.0.6",
   "description": "Vue wrapper for js-cookie",
   "main": "js-cookie-vue.mjs",
   "types": "./types/js-cookie-vue.d.ts",
@@ -23,7 +23,6 @@
     "url": "https://github.com/vegerot/js-cookies-vue.git"
   },
   "homepage": "https://github.com/vegerot/js-cookies-vue",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/vegerot" },
   "license": "GPLv2",
   "dependencies": {
     "js-cookie": "^2.2.1"
